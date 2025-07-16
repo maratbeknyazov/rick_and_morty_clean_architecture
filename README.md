@@ -8,23 +8,25 @@ A **Clean Architecture Flutter application** that displays Rick and Morty charac
 
 | Home Screen | Character Detail | Search Screen |
 |-------------|------------------|----------------|
-| ![Home](screenshots/home_screen.png) | ![Character](screenshots/character_screen.png) | ![Search](screenshots/search_screen.png) |
+| ![Home](lib/screenshots/home_screen.png) | ![Character](lib/screenshots/character_screen.png) | ![Search](lib/screenshots/search_screen.png) |
 
 ---
 
 ## 📂 Project Structure
 
 lib/
-├── common/                     # Common UI elements (e.g. colors)
-├── core/                       # Core logic: error handling, platform services, base usecase
-├── feature/                    # Feature module
-│   ├── data/                   # Remote/local sources, models, and repositories
-│   ├── domain/                 # Entities, abstract repositories, use cases
-│   └── presentation/           # UI: BLoC, pages, widgets
-├── locator_service.dart        # Dependency injection setup
-├── main.dart                   # App entry point
+├── common/ # Common UI elements (e.g. colors)
+├── core/ # Core logic: error handling, platform services, base usecase
+├── feature/ # Feature module
+│ ├── data/ # Remote/local sources, models, and repositories
+│ ├── domain/ # Entities, abstract repositories, use cases
+│ └── presentation/ # UI: BLoC, pages, widgets
+├── locator_service.dart # Dependency injection setup
+├── main.dart # App entry point
 
-
+markdown
+Копировать
+Редактировать
 
 ---
 
@@ -45,20 +47,25 @@ lib/
 
 ## 🚀 Getting Started
 
-### 1. Clone the repo
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/maratbeknyazov/rick_and_morty_clean_architecture
 cd rick_and_morty_flutter_3
-Install dependencies
+2. Install dependencies
+bash
+Копировать
+Редактировать
 flutter pub get
-Run the app
+3. Run the app
+bash
+Копировать
+Редактировать
 flutter run
-
-Убедись, что у тебя установлен Flutter SDK и настроен Android/iOS эмулятор или реальное устройство.
+💡 Make sure you have Flutter SDK installed and an Android/iOS emulator or real device connected.
 
 🔍 Features
-🔁 Load all Rick and Morty characters from API
+🔁 Load all Rick and Morty characters from the API
 
 🔎 Search characters by name
 
@@ -68,7 +75,6 @@ flutter run
 
 🧱 Clean Architecture separation
 
-
 🧠 Project Philosophy
 Проект построен на Clean Architecture:
 
@@ -76,11 +82,11 @@ presentation не зависит от data
 
 domain — центральное связующее звено
 
-легкое масштабирование и тестирование
-
+Лёгкое масштабирование и тестирование
 
 🤝 Contributing
-Пулл-реквесты приветствуются. Для крупных изменений, пожалуйста, создай issue.
+Пулл-реквесты приветствуются.
+Для крупных изменений, пожалуйста, сначала создайте issue.
 
 📄 License
 MIT License. Свободно используйте и модифицируйте.
