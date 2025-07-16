@@ -14,15 +14,10 @@ A **Clean Architecture Flutter application** that displays Rick and Morty charac
 
 ## 📂 Project Structure
 
-lib/
-├── common/ # Common UI elements (e.g. colors)
-├── core/ # Core logic: error handling, platform services, base usecase
-├── feature/ # Feature module
-│ ├── data/ # Remote/local sources, models, and repositories
-│ ├── domain/ # Entities, abstract repositories, use cases
-│ └── presentation/ # UI: BLoC, pages, widgets
-├── locator_service.dart # Dependency injection setup
-├── main.dart # App entry point
+| Structure |
+|-------------|
+| ![Structure](lib/screenshots/structure_screen.png) |
+
 
 markdown
 Копировать
